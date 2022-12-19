@@ -1,0 +1,55 @@
+.end {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 2% 0;
+    background: rgba(229,229,229,0.9);
+    justify-content: space-evenly;
+}
+
+.end .etsy {
+    margin-left: 1.5rem;
+}
+
+.end .etsy p {
+    color: gray;
+    font-family: helvetica,arial;
+    font-size: small;
+}
+
+.end .etsy h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.end .etsy h3,p {
+    margin-bottom: 8px;
+}
+
+.end .etsy .pic {
+    max-width: 3.5rem;
+    justify-content: center;
+}
+
+.end .copyright {
+    font-size: small;
+    font-family: helvetica,arial;
+    color: gray;
+}
+
+.end .facebook {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: transparent;
+}
+
+.end .facebook img {
+    max-width: 3.5rem;
+}
+
+.end .facebook p {
+    color: gray;
+    font-family: helvetica,arial;
+    font-size: small;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+

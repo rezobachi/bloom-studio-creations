@@ -1,0 +1,86 @@
+/*container for flexboxes*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:ital,wght@1,700&family=Vollkorn:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+.topnav {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../images/dotted.jpeg");
+}    
+
+.topnav #site-logo {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 0;
+    margin: 0 0 0 1.2rem;
+    background: transparent;
+}
+
+.topnav #site-logo img {
+    width: 6rem;
+    background-color: transparent;
+}
+
+.topnav input[type=text] {
+    display: flex;
+    flex-wrap: nowrap;
+    flex: 2;
+    border-radius: 10px;
+    margin: auto;
+    padding: 0.5rem;
+    border: 0.5px solid #E8E8E8	;
+    margin-left: 20rem;
+    margin-right: 15rem;
+    min-width: 200px;
+    outline: none;
+}
+
+.topnav button {
+    background-color:transparent;
+    border: none;
+    width: 10px;
+    margin-right: 5rem;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;  
+    margin-right: 2rem;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.buttons a {
+    color: #09f;
+    text-align: center;
+    border-style:none;
+    text-decoration: none;
+    height: 2.3rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.buttons a:hover {
+    text-decoration: underline;
+}
+
+.buttons .fancybutton {
+    color: white;
+    background-color: #09f;
+    text-transform: uppercase;
+    border-radius: 0.6rem;
+    padding: 10px;
+    font-family: 'Merriweather', serif;
+    font-size: small;
+    transition: transform 0.5s;
+}
+
+.buttons .fancybutton:hover {
+    text-decoration: underline;
+    transform: translateY(-5px);
+}

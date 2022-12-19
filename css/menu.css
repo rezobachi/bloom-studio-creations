@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+.main-nav {
+    background:url("../images/dotted.jpeg")
+}
+
+.main-nav a {
+    font-weight: bold;
+    margin: 0;
+    color: black;
+    height: 40px;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.main-nav li {
+    text-align: center;
+    position: relative;
+    margin: 0 2rem;
+}
+
+.main-nav li:hover .submenu > li {
+    display: block;
+    top: 0px;
+    left: 0;
+}
+
+.submenu li {
+    display: none;
+}
+
+.submenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 9;
+    width: 200%;
+    background-color: white;
+}
+
+.arrow {
+    margin-left: 8px;
+    color: black;
+    font-size: 12px;
+}
+
+.sale {
+    display: block;
+}
+
+.sale a{
+    border-radius: 5px;
+    transition: background 0.5s, transform 0.5s, box-shadow 1s, color 0.5s;
+}
+
+.sale a:hover{
+    background-color: #09f;
+    transform: translateY(-10px);
+    box-shadow: none;
+    color: white;
+    box-shadow: 0 0 10px 0 #09f;
+}
